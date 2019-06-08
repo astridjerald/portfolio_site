@@ -102,7 +102,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url(../img/portrait.jpg);
+  background: url(../img/image_cruise_250_bw.jpg);
   border-radius: 50%;
   border: solid 3px #ee7d31;
 }
@@ -170,7 +170,8 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, "Segoe UI", Tahoma, Geneva, Verdana,
+ sans-serif;
   line-height: 1.5;
 }
 
@@ -258,7 +259,8 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-      grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+      grid-template-areas: 'bioimage bio bio'
+ 'job1 job2 job3';
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
 }
@@ -443,7 +445,11 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-areas: 'bioimage'
+ 'bio'
+ 'job1'
+ 'job2'
+ 'job3';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
