@@ -146,8 +146,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, "Segoe UI", Tahoma, Geneva, Verdana,
- sans-serif;
+  font-family: "Segoe UI", Tahoma, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
 
 body#bg-img {
@@ -220,8 +219,7 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio'
- 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   -ms-grid-columns: 1fr [3];
   grid-template-columns: repeat(3, 1fr); }
 
@@ -375,11 +373,7 @@ main#home h1 {
     width: 150px;
     height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'job1'
- 'job2'
- 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr; }
   .projects {
