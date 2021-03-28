@@ -20,6 +20,8 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
+  text-align: center;
+
   &.lg-heading {
     font-size: 6rem;
   }
@@ -45,6 +47,7 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
   .icons {
+    text-align: center;
     margin-top: 1rem;
   
   a {
